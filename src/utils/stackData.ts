@@ -4,7 +4,7 @@ import imgJS from "../public/static/img/stack/js.svg";
 import imgNode from "../public/static/img/stack/node.svg";
 import imgStyled from "../public/static/img/stack/styled.svg";
 import imgReact from "../public/static/img/stack/react.svg";
-import { FaVuejs, FaJava, FaUnity } from "react-icons/fa";
+import { FaJava, FaUnity } from "react-icons/fa";
 import { GrAndroid, GrWindows } from "react-icons/gr";
 
 export const stackData = [

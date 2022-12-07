@@ -82,7 +82,9 @@ export const Home = (): JSX.Element => {
                                 as="a"
                                 type="circle"
                                 target="_blank"
-                                href={userData.githubUser}
+                                href={
+                                    "https://github.com/" + userData.githubUser
+                                }
                             >
                                 <FaGithub />
                             </Button>
@@ -113,7 +115,7 @@ export const Home = (): JSX.Element => {
                                     ? Translate.createdAt.PT
                                     : Translate.createdAt.EN}{" "}
                                 <Text as="span" color="brand5">
-                                    Kenzie Academy
+                                    Kenzie Academy Brasil
                                 </Text>
                             </Text>
                         </ProjectsAreaSocialMediaMessage>

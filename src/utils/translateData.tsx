@@ -10,8 +10,8 @@ export const Translate = {
         EN: "Hello World! My name is Matheus de Souza Arruda",
     },
     discover: {
-        PT: "Descubra aqui nesse ambiente, criado especialmente para você, todos os meus projetos e as tecnologias com as quais trabalho",
-        EN: "Discover here in this environment, created especially for you, all my projects and technologies",
+        PT: "Sou apaixonado por programação desde a infância, acredito que o limite de uma aplicação é apenas a curiosidade do programador. Seja bem-vindo ao meu porfolio!",
+        EN: "I'm in love with programming since my childhood, I believe the application limit is only the creativity of the programmer, welcome to my portfolio!",
     },
     seeProjects: {
         PT: "Ver Projetos",
@@ -97,6 +97,10 @@ export const Translate = {
         PT: "Aplicação",
         EN: "Application",
     },
+    preview: {
+        PT: "Visualizar",
+        EN: "Preview",
+    },
 };
 
 interface IPresentation {
@@ -106,27 +110,25 @@ interface IPresentation {
 export const Presentation = ({ lang }: IPresentation) => {
     return lang === "PT" ? (
         <Text as="h1" type="heading1" color="grey5">
-            Eu{" "}
+            Minha paixão é desenvolver com{" "}
             <Text as="span" type="heading1" color="brand1">
-                amo
+                criatividade
             </Text>{" "}
-            criar e{" "}
+            e{" "}
             <Text as="span" type="heading1" color="brand1">
-                desenvolver
-            </Text>{" "}
-            novos projetos
+                inovação.
+            </Text>
         </Text>
     ) : (
         <Text as="h1" type="heading1" color="grey5">
-            I{" "}
+            I love develop with{" "}
             <Text as="span" type="heading1" color="brand1">
-                love
+                creativity
             </Text>{" "}
-            creating and{" "}
+            and{" "}
             <Text as="span" type="heading1" color="brand1">
-                developing
-            </Text>{" "}
-            projects
+                innovation
+            </Text>
         </Text>
     );
 };
